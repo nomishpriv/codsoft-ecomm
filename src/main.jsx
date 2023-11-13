@@ -19,8 +19,8 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/codsoft-ecomm/" element={<App />}>
       <Route index={true} path="/codsoft-ecomm/" element={<HomeScreen />} />
-      <Route path="/product/:id" element={<ProductScreen />} />
-      <Route path="/cart" element={<CartScreen />} />
+      <Route path="/codsoft-ecomm/product/:id" element={<ProductScreen />} />
+      <Route path="/codsoft-ecomm/cart" element={<CartScreen />} />
     </Route>
   )
 );
