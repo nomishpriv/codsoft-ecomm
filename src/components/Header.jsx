@@ -11,7 +11,7 @@ const Header = () => {
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
-          <LinkContainer to="/">
+          <LinkContainer to="/codsoft-ecomm/">
             <Navbar.Brand>
               <img src={logo} width={100} alt="ProShop"></img>
               
