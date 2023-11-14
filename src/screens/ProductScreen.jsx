@@ -36,7 +36,7 @@ const ProductScreen = () => {
 
   const addToCartHandler = () => {
     dispatch(addToCart({ ...product, qty }));
-    navigate("/cart");
+    navigate("/codsoft-ecomm/cart");
   };
 
   return (
